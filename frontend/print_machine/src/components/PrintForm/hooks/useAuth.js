@@ -1,7 +1,7 @@
 // hooks/useAuth.js
 import { useState, useEffect, useCallback } from "react";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "https://snapprints-production-b39c.up.railway.app/api";
+const API_BASE = process.env.REACT_APP_API_BASE || "https://uploadsnapprints-production.up.railway.app/api";
 const AUTH_STORAGE_KEY = "snapprints_auth";
 
 async function apiLoginOrRegister(mobile) {
